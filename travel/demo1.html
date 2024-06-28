@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 500px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="navbar" align="center">
+                        <th><a href="#"><p>Home</p></a></th>
+                        <th><a href="#"><p>Blogs</p></a></th>
+                        <th><a href="#"><p>Tourist</p></a></th>
+                        <th><a href="#"><p>Bookings</p></a></th>
+                        <th><a href="#"><p>Resorts</p></a></th>
+      </div>
+
+<div class="header">
+   <img src="kam.jpg" width="100%" height="auto"> 
+  <h1>My Website</h1>
+  <p>A website created by me.</p>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About:</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg">
+    <img src="truck.jpg" height="200px">
+    <p>Mt Kamet Expedition is surprisingly located where India, Nepal, and Tibet meet in the Chamoli district of Garhwal Himalayas at an altitude of 7,756 m. The Mt Kamet Expedition is the second-highest mountain in Uttarakhand, India. Kamet appears like a huge shrine that is topped by an almost flat summit area with 2 peaks.</p>
+    </div>
+    <h3>More Text</h3>
+    <p>CLIMBING ROUTES</p>
+    <div class="fakeimg" style="height:60px;">SOUTHWEST FACE</div><br>
+    <div class="fakeimg" style="height:60px;">EAST KAMET GLACIER</div><br>
+    <div class="fakeimg" style="height:60px;">SOUTHEAST FACE</div>
+  </div>
+  <div class="main">
+    <h2>Mount Kamet</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">It is  the 29th highest mountain in the world. It lies in the Chamoli District of Uttarakhand. Due to its position near the Tibetan Plateau, Kamet is very remote and not as accessible as some Himalayan peaks
+    <BR><BR>
+        Kamet is surrounded by three principal neighboring or subsidiary peaks:<BR><BR>
+        Mukut Parbat<BR>
+        Abi Gamin<BR>
+        Mana Peak
+</div>
+<H1>Art And Literature</H1>
+<P>Kamet Peak’s awe-inspiring beauty has inspired artists, writers, and poets throughout history. It has been featured in various literary works, paintings, and poems, capturing the essence of its grandeur.</P>
+    <H1>FAQ'</H1>
+
+    <P><h4>1.Is climbing Kamet Peak dangerous?</h4> Climbing Kamet Peak involves certain risks, including treacherous weather conditions and technical challenges. Proper preparation and guidance from experienced mountaineers are essential to mitigate these risks.</P>
+<P><h4>2.What is the best time to attempt the summit?</h4> The best time to climb Kamet Peak is during the pre-monsoon and post-monsoon seasons, from May to early June and September to October.</P>
+<P><h4>3.Can beginners attempt trekking around Kamet Peak?</h4> While climbing the peak requires expertise, there are trekking routes suitable for beginners that offer a taste of the region’s beauty and adventure.</P>
+<P><h4>4.Are there accommodations available near Kamet Peak?</h4> Yes, there are base camps, lodges, and camping facilities available to cater to trekkers and climbers.</P>
+<P><h4>5.How can I contribute to conservation efforts around Kamet Peak?</h4> Supporting local eco-tourism initiatives and following responsible tourism practices can contribute to the conservation of the fragile Himalayan ecosystem.</P>
+
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
